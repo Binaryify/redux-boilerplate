@@ -9,6 +9,8 @@
     "react-dom": "^15.0.2",
     "react-redux": "^4.4.5",
     "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0",
     "webpack": "~1.12.9",
     "webpack-dev-server": "~1.14.0"
   },
@@ -37,7 +39,7 @@
     "start": "webpack-dev-server --devtool eval --progress --hot --colors --content-base app",
     "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js",
     "validate": "npm ls",
-    "core":"babel core.js -o babelOutput/core.js && node babelOutput/core.js"
+    "core": "babel core.js -o babelOutput/core.js && node babelOutput/core.js"
   },
   "keywords": [
     "es6",
