@@ -40,5 +40,6 @@ module.exports = {
     new OpenBrowserPlugin({
       url: 'http://localhost:8080'
     })
-  ]
+  ],
+  devtool : "source-map"
 };
